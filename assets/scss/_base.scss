@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: $flato;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 2px;
+    font-size: 48px;
+    text-align: center;
+    color: $cblue;
+}
+h2{
+    font-family: $flato;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 29px;
+    text-align: center;
+
+    &::after{
+        content: "";
+        width: 60px;
+        height: 2px;
+        display: block;
+        background-color: #E2E6E7;
+        margin: 25px auto;
+    }
+}
+h3{
+    font-family: $flato;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+h4{
+    font-family: $fpt-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: $cblue;
+    text-align: center;
+}
+h5{
+    font-family: $flato;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+p{
+    font-family: $flato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 186%;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: $cgray;
+}
+.btn{
+    cursor: pointer;
+    font-weight: inherit;
+    border: 2px solid $cblue;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 15px 38px 17px 38px;
+    font-family: $flato;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
